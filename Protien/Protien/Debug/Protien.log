@@ -1,0 +1,43 @@
+﻿  ConfigurationData.cpp
+  DataProvider.cpp
+c:\users\saleh\source\repos\protien\protien\dataprovider.cpp(96): warning C4244: '=': conversion from 'std::streamoff' to 'size_t', possible loss of data
+c:\users\saleh\source\repos\protien\protien\dataprovider.cpp(127): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\dataprovider.cpp(151): warning C4244: '=': conversion from 'std::streamoff' to 'size_t', possible loss of data
+c:\users\saleh\source\repos\protien\protien\dataprovider.cpp(175): warning C4018: '<': signed/unsigned mismatch
+  FamCpp.cpp
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(356): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(379): warning C4244: 'argument': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(521): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(610): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(611): warning C4018: '>=': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(625): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(652): warning C4018: '<=': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\famcpp.cpp(689): warning C4018: '<': signed/unsigned mismatch
+  Helpers.cpp
+c:\users\saleh\source\repos\protien\protien\helpers.cpp(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\helpers.cpp(80): warning C4018: '<=': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\helpers.cpp(131): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\helpers.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\helpers.cpp(225): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\helpers.cpp(264): warning C4018: '<': signed/unsigned mismatch
+  jsoncpp.cpp
+c:\users\saleh\source\repos\protien\protien\jsoncpp.cpp(278): warning C4005: '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt.h(425): note: see previous definition of '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES'
+  Logger.cpp
+  MappingInfo.cpp
+c:\users\saleh\source\repos\protien\protien\mappinginfo.cpp(17): warning C4018: '<=': signed/unsigned mismatch
+  Node.cpp
+  NodePCN.cpp
+  PcnBuilder.cpp
+c:\users\saleh\source\repos\protien\protien\pcnbuilder.cpp(102): warning C4018: '<': signed/unsigned mismatch
+c:\users\saleh\source\repos\protien\protien\pcnbuilder.cpp(173): warning C4018: '<=': signed/unsigned mismatch
+  Serializer.cpp
+c:\users\saleh\source\repos\protien\protien\serializer.cpp(52): warning C4244: 'argument': conversion from 'std::streamsize' to 'unsigned long', possible loss of data
+c:\users\saleh\source\repos\protien\protien\serializer.cpp(57): warning C4244: 'argument': conversion from 'std::streamsize' to 'unsigned long', possible loss of data
+  Generating Code...
+c:\users\saleh\source\repos\protien\protien\nodepcn.cpp(34): warning C4717: 'NodePCN::NodePCN': recursive on all control paths, function will cause runtime stack overflow
+  Protien.vcxproj -> C:\Users\saleh\source\repos\Protien\Debug\Protien.exe

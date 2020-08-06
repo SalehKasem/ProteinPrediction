@@ -1,0 +1,29 @@
+08/06/20 21:50:02  [INFO]: Fast Approximate Match App. v 1.5
+08/06/20 21:50:02  [INFO]: Configuration parameters: 
+		Number of threads: 1
+		Alphabet: ARNDCEQGHILKMFPSTWYV
+		Complexity threshold 0.333
+		Size of SEED: 20
+		Maximum number of allowed mismatches: 8
+		PCN levels: 4
+		Form buffer size: 10
+		Maximal count of sequences per chunk: 100000
+		Maximal Matches in PCN: 1
+
+08/06/20 21:50:02  [INFO]: mcs forms are:
+XXXX
+XXX.X
+XX.XX
+XXX..X
+XX.X.X
+
+08/06/20 21:50:02  [INFO]: Loaded 1 target sequiences from file ./ConfExample/SeqsToSearch.txt within 0.000273 seconds.
+08/06/20 21:50:02  [INFO]: Start PCN creation for directory: ./ConfExample/InputData
+08/06/20 21:50:02  [INFO]: Program Commands:
+			   To Run PcnBuilder Press R
+			   To SimpleFilter Press S
+			   To Desrilaize And Build Pajek Press P
+			   To Exit Press E
+08/06/20 21:50:03  [INFO]: Please enter pcnDump file Path:
+08/06/20 21:50:42  [INFO]: Deserialization from C:\Users\saleh\source\repos\Protien\Debug\ConfExample\Results\Level_1\pcnDump_lvl_1
+08/06/20 21:50:42  [ERROR]: Unhandled exception

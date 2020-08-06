@@ -1,0 +1,155 @@
+08/06/20 21:38:37  [INFO]: Fast Approximate Match App. v 1.5
+08/06/20 21:38:37  [INFO]: Configuration parameters: 
+		Number of threads: 1
+		Alphabet: ARNDCEQGHILKMFPSTWYV
+		Complexity threshold 0.333
+		Size of SEED: 20
+		Maximum number of allowed mismatches: 8
+		PCN levels: 4
+		Form buffer size: 10
+		Maximal count of sequences per chunk: 100000
+		Maximal Matches in PCN: 1
+
+08/06/20 21:38:37  [INFO]: mcs forms are:
+XXXX
+XXX.X
+XX.XX
+XXX..X
+XX.X.X
+
+08/06/20 21:38:37  [INFO]: Loaded 1 target sequiences from file ./ConfExample/SeqsToSearch.txt within 0.000309 seconds.
+08/06/20 21:38:37  [INFO]: Start PCN creation for directory: ./ConfExample/InputData
+08/06/20 21:38:37  [INFO]: Program Commands:
+			   To Run PcnBuilder Press R
+			   To SimpleFilter Press S
+			   To Desrilaize And Build Pajek Press P
+			   To Exit Press E
+08/06/20 21:38:46  [INFO]: ./ConfExample/InputData contains of 1 files
+08/06/20 21:38:46  [INFO]: Level 1: Start mapping, candidates search AND merge procedures
+08/06/20 21:38:46  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:38:46  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:38:46  [DEBUG]: Time:0.009965 seconds.
+08/06/20 21:38:47  [DEBUG]: Mapping completed in 1.545970 seconds.
+08/06/20 21:38:47  [DEBUG]: Level 1.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.546110 seconds.
+08/06/20 21:38:58  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0012 seconds.
+Merging completed within 2.1e-06 seconds.
+Structures CleanUp completed within 0.197146 seconds.
+
+08/06/20 21:38:58  [INFO]: Level 1: Mapping, candidates search AND merge procedures have been completed within 11.768590 seconds
+08/06/20 21:38:58  [INFO]: Serialization to ./ConfExample/Results/Level_1/pcnDump_lvl_1.pcnDump. Level 1
+08/06/20 21:38:58  [INFO]: Level 2: Start mapping, candidates search AND merge procedures
+08/06/20 21:38:58  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:38:58  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:38:58  [DEBUG]: Time:0.010674 seconds.
+08/06/20 21:38:59  [DEBUG]: Mapping completed in 1.450989 seconds.
+08/06/20 21:38:59  [DEBUG]: Level 2.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.451129 seconds.
+08/06/20 21:39:09  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0018 seconds.
+Merging completed within 3.7e-06 seconds.
+Structures CleanUp completed within 0.241104 seconds.
+
+08/06/20 21:39:09  [INFO]: Level 2: Mapping, candidates search AND merge procedures have been completed within 11.705971 seconds
+08/06/20 21:39:09  [INFO]: Serialization to ./ConfExample/Results/Level_2/pcnDump_lvl_2.pcnDump. Level 2
+08/06/20 21:39:09  [INFO]: Level 3: Start mapping, candidates search AND merge procedures
+08/06/20 21:39:09  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:39:09  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:39:09  [DEBUG]: Time:0.008603 seconds.
+08/06/20 21:39:11  [DEBUG]: Mapping completed in 1.419168 seconds.
+08/06/20 21:39:11  [DEBUG]: Level 3.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.419313 seconds.
+08/06/20 21:39:21  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.001 seconds.
+Merging completed within 4e-06 seconds.
+Structures CleanUp completed within 0.197004 seconds.
+
+08/06/20 21:39:21  [INFO]: Level 3: Mapping, candidates search AND merge procedures have been completed within 11.626784 seconds
+08/06/20 21:39:21  [INFO]: Serialization to ./ConfExample/Results/Level_3/pcnDump_lvl_3.pcnDump. Level 3
+08/06/20 21:39:21  [INFO]: Level 4: Start mapping, candidates search AND merge procedures
+08/06/20 21:39:21  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:39:21  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:39:21  [DEBUG]: Time:0.011552 seconds.
+08/06/20 21:39:23  [DEBUG]: Mapping completed in 1.519033 seconds.
+08/06/20 21:39:23  [DEBUG]: Level 4.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.519205 seconds.
+08/06/20 21:39:33  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0016 seconds.
+Merging completed within 2.3e-06 seconds.
+Structures CleanUp completed within 0.235309 seconds.
+
+08/06/20 21:39:33  [INFO]: Level 4: Mapping, candidates search AND merge procedures have been completed within 11.768876 seconds
+08/06/20 21:39:33  [INFO]: Serialization to ./ConfExample/Results/Level_4/pcnDump_lvl_4.pcnDump. Level 4
+08/06/20 21:39:33  [INFO]: Mapping summary:
+08/06/20 21:39:33  [INFO]: File: .\ConfExample\InputData\0-99999.txt
+08/06/20 21:39:33  [INFO]: 	Chunk#0:1, 1, 1, 1
+
+08/06/20 21:39:33  [INFO]: All procedure completed in:46.989370 seconds.
+08/06/20 21:39:33  [INFO]: Program Commands:
+			   To Run PcnBuilder Press R
+			   To SimpleFilter Press S
+			   To Desrilaize And Build Pajek Press P
+			   To Exit Press E
+08/06/20 21:40:39  [INFO]: ./ConfExample/InputData contains of 1 files
+08/06/20 21:40:39  [INFO]: Level 1: Start mapping, candidates search AND merge procedures
+08/06/20 21:40:39  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:40:39  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:40:39  [DEBUG]: Time:0.010940 seconds.
+08/06/20 21:40:40  [DEBUG]: Mapping completed in 1.466001 seconds.
+08/06/20 21:40:40  [DEBUG]: Level 1.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.466146 seconds.
+08/06/20 21:40:50  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0016 seconds.
+Merging completed within 2.3e-06 seconds.
+Structures CleanUp completed within 0.194253 seconds.
+
+08/06/20 21:40:50  [INFO]: Level 1: Mapping, candidates search AND merge procedures have been completed within 11.674234 seconds
+08/06/20 21:40:50  [INFO]: Serialization to ./ConfExample/Results/Level_1/pcnDump_lvl_1.pcnDump. Level 1
+08/06/20 21:40:50  [INFO]: Level 2: Start mapping, candidates search AND merge procedures
+08/06/20 21:40:50  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:40:50  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:40:50  [DEBUG]: Time:0.007736 seconds.
+08/06/20 21:40:52  [DEBUG]: Mapping completed in 1.435678 seconds.
+08/06/20 21:40:52  [DEBUG]: Level 2.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.435826 seconds.
+08/06/20 21:41:02  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0013 seconds.
+Merging completed within 2.1e-06 seconds.
+Structures CleanUp completed within 0.226614 seconds.
+
+08/06/20 21:41:02  [INFO]: Level 2: Mapping, candidates search AND merge procedures have been completed within 11.672427 seconds
+08/06/20 21:41:02  [INFO]: Serialization to ./ConfExample/Results/Level_2/pcnDump_lvl_2.pcnDump. Level 2
+08/06/20 21:41:02  [INFO]: Level 3: Start mapping, candidates search AND merge procedures
+08/06/20 21:41:02  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:41:02  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:41:02  [DEBUG]: Time:0.009245 seconds.
+08/06/20 21:41:04  [DEBUG]: Mapping completed in 1.414374 seconds.
+08/06/20 21:41:04  [DEBUG]: Level 3.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.414546 seconds.
+08/06/20 21:41:14  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0016 seconds.
+Merging completed within 2.7e-06 seconds.
+Structures CleanUp completed within 0.202267 seconds.
+
+08/06/20 21:41:14  [INFO]: Level 3: Mapping, candidates search AND merge procedures have been completed within 11.628597 seconds
+08/06/20 21:41:14  [INFO]: Serialization to ./ConfExample/Results/Level_3/pcnDump_lvl_3.pcnDump. Level 3
+08/06/20 21:41:14  [INFO]: Level 4: Start mapping, candidates search AND merge procedures
+08/06/20 21:41:14  [DEBUG]: file in process .\ConfExample\InputData\0-99999.txt
+08/06/20 21:41:14  [DEBUG]: Finished reading data file. Sequences in data text:30
+08/06/20 21:41:14  [DEBUG]: Time:0.009894 seconds.
+08/06/20 21:41:16  [DEBUG]: Mapping completed in 1.764706 seconds.
+08/06/20 21:41:16  [DEBUG]: Level 4.Mapping for chunk# 0 of file .\ConfExample\InputData\0-99999.txt took 1.764867 seconds.
+08/06/20 21:41:26  [DEBUG]: File .\ConfExample\InputData\0-99999.txt. Chunk# 0
+Find candidates completed within 10.0011 seconds.
+Merging completed within 3.2e-06 seconds.
+Structures CleanUp completed within 0.305832 seconds.
+
+08/06/20 21:41:26  [INFO]: Level 4: Mapping, candidates search AND merge procedures have been completed within 12.082790 seconds
+08/06/20 21:41:26  [INFO]: Serialization to ./ConfExample/Results/Level_4/pcnDump_lvl_4.pcnDump. Level 4
+08/06/20 21:41:26  [INFO]: Mapping summary:
+08/06/20 21:41:26  [INFO]: File: .\ConfExample\InputData\0-99999.txt
+08/06/20 21:41:26  [INFO]: 	Chunk#0:1, 1, 1, 1
+
+08/06/20 21:41:26  [INFO]: All procedure completed in:47.158860 seconds.
+08/06/20 21:41:26  [INFO]: Program Commands:
+			   To Run PcnBuilder Press R
+			   To SimpleFilter Press S
+			   To Desrilaize And Build Pajek Press P
+			   To Exit Press E
+08/06/20 21:48:58  [INFO]: Please enter pcnDump file Path:
+08/06/20 21:49:50  [INFO]: Deserialization from C:\Users\saleh\source\repos\Protien\Debug\ConfExample\Results\Level_1\pcnDump_lvl_1
+08/06/20 21:49:50  [ERROR]: Unhandled exception

@@ -1,0 +1,16 @@
+{
+	"InputData": "./ConfExample/InputData",
+	"McsFilePath": "./ConfExample/mcs4.txt",
+	"SequencesToSearch": "./ConfExample/SeqsToSearch.txt",
+	"OutputResultDirectory": "./ConfExample/Results",
+	"LogDirectory": "./ConfExample/Logs",
+	"NumOfThreads": 1,
+	"SizeOfSeed": 20,
+	"NumOfAllowedMismatches": 8,
+	"PcnLevels": 4,
+	"FormBufferSize": 10,
+	"SequencesPerChunk": 100000,
+	"Alphabet": "ARNDCEQGHILKMFPSTWYV",
+	"ComplexityThreshold": 0.333,
+	"MaxMatchesInPcn": 1
+}
